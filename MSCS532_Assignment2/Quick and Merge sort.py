@@ -55,7 +55,7 @@ def generate_datasets(size):
 
 # ----------------- Main Execution -----------------
 if __name__ == "__main__":
-    size = 1000  # You can increase for more intensive testing
+    size = 1000 
     datasets = generate_datasets(size)
     labels = ["Random", "Sorted", "Reverse Sorted"]
     
